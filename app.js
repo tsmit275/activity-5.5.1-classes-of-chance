@@ -1,9 +1,31 @@
+debugger
+//created a blueprint for a new casino game
 class Casino {
     // Write code here
-};
-
+    constructor(name){
+    //this is the data describing our casino game
+     this.name = name
+     this.timesPlayed = 0
+    }
+    //function that the blueprint has 
+    //takes one arguement 
+    playGame(betAmount){
+        console.log(betAmount)
+        this.timeplayed += 1
+        console.log(this.timesPlayed)
+        if(Math.random <= 0.5){
+            
+            console.log(true, "name wins")
+        }
+        else {
+            console.log(false, "the player wins the bet amount")
+        }
+    }
+    
+}
+ 
 // TESTS
-const myCasino = new Casino("HackerU Casino");
+let myCasino = new Casino("HackerU Casino");
 console.log(myCasino);
 myCasino.playGame(5);
 myCasino.playGame(15);
@@ -28,3 +50,6 @@ myExtraBonusCasino.rollDie(6);
 myExtraBonusCasino.rollDie(20);
 myExtraBonusCasino.rollDie(100);
 */
+
+
+

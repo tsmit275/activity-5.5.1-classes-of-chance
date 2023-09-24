@@ -15,7 +15,7 @@ Our game will be a simple coin flipping game that encourages customers to play f
 1. Create a **Casino** class that takes a **name** as input to it's constructor.
 2. Add another field called **timesPlayed** that has a default value of 0.
 3. Create a method called **playGame(betAmount)** that checks if **Math.random() is less than or equal to 0.5**. If true, console.log that the name of the casino wins. If false, say the player wins the bet amount.
-4. When the player wins increment the **timesPlayed** by one. Then, when the player wins, change the amount they won to equal: **betAmount * (this.timesPlayed + 1)**.
+4. When the player wins, increment the **timesPlayed** by one. Then, when the player wins, change the amount they won to equal: **betAmount * (this.timesPlayed + 1)**.
 
 ```js
 const myCasino = new Casino("HackerU Casino");
